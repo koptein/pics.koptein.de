@@ -13,7 +13,7 @@ class Rss {
 
     public function renderFeed(){
         echo $this->generateHead();
-        echo $this->generateAllQuotes();
+        echo $this->generateAllItems);
         echo $this->generateFooter(); 
     }
 
@@ -30,7 +30,7 @@ class Rss {
         return $head;
 
     }
-    private function generateAllQuotes(){
+    private function generateAllItems(){
         $feed = '';
         foreach ($this->pics as $pic) {
                 
