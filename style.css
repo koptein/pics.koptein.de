@@ -1,0 +1,73 @@
+body {
+    background-image: url(dark_wall.png);
+    background-repeat:repeat;
+    float:left;
+}
+
+#page {
+    
+    margin-left: 40px:
+
+
+}
+
+#header {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 55px;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Helvetiva', Arial, Verdana;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+#header a {
+    color: #fff;       
+}
+#header a:hover {
+    color: #ccc;       
+}
+#header a:visited {
+    color: #fff;    
+}
+.picture {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 55px;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Helvetiva', Arial, Verdana;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+.piclink {
+    float: right;    
+}
+.picinfos {
+    border-radius: 10px;
+    float: right;
+    margin-left: 19px;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 0.37em;
+    color: #000;
+    width: 150px;
+}
+.clear{
+    clear:both;
+}
+
+.actual_picture {
+    border-radius: 8px  border-radius: 8px  border-radius: 8px;;;
+}
+
+a {
+    color: #f66;       
+}
+a:hover {
+    color: #f00;       
+}
+a:visited {
+    color: #f33;    
+}
