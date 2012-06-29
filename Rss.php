@@ -13,7 +13,7 @@ class Rss {
 
     public function renderFeed(){
         echo $this->generateHead();
-        echo $this->generateAllItems);
+        echo $this->generateAllItems();
         echo $this->generateFooter(); 
     }
 
